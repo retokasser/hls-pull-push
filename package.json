@@ -1,6 +1,6 @@
 {
-  "name": "@eyevinn/hls-pull-push",
-  "version": "0.3.1",
+  "name": "retokasser/hls-pull-push.git",
+  "version": "0.3.2",
   "description": "NPM library to pull HLS Live and Push to a another origin",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eyevinn/hls-pull-push.git"
+    "url": "git+https://github.com/retokasser/hls-pull-push.git"
   },
   "engines": {
     "npm": ">=6.0.0",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-mediapackage": "^3.41.0",
-    "retokasser/hls-recorder": "^0.5.5",
+    "retokasser/hls-recorder": "^0.5.4",
     "@eyevinn/iaf-plugin-aws-s3": "^1.0.0",
     "abort-controller": "^3.0.0",
     "clone": "^2.1.2",
